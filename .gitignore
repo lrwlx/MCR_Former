@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+.ipynb_checkpoints/
+.DS_Store
+*.log
+.venv/
+venv/
+.idea/
+.vscode/
+
+# run outputs
+out/
+_smoke/
+*.pid
+nohup.out
+results_few_shot_analysis/
+results_few_shot_linear_probing/
+results_v12/
+models/
+models_v12/

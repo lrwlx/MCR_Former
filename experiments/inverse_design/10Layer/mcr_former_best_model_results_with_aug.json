@@ -1,0 +1,33 @@
+{
+    "test_r2": 0.9926183223724365,
+    "test_mse": 5.661504837917164e-05,
+    "test_rmse": 0.007524297201677486,
+    "symmetry_stats": {
+        "mean_diff": 0.0,
+        "max_diff": 0.0,
+        "min_diff": 0.0,
+        "std_diff": 0.0,
+        "median_diff": 0.0
+    },
+    "config": {
+        "batch_size": 32,
+        "d_model": 32,
+        "nhead": 2,
+        "num_layers": 3,
+        "dim_feedforward": 512,
+        "dropout": 0.1,
+        "learning_rate": 0.001,
+        "num_epochs": 80,
+        "test_size": 0.2,
+        "random_state": 42,
+        "max_seq_len": 10,
+        "num_layers_angle": 10,
+        "data_file": "composite_v13_dataset_10.csv",
+        "model_save_base": "mcr_former_best_model"
+    },
+    "augmentation": true,
+    "model_filename": "mcr_former_best_model_with_aug.pth",
+    "symmetry_results_filename": "mcr_former_best_model_symmetry_validation_results_with_aug.xlsx",
+    "training_history_filename": "mcr_former_best_model_training_history_with_aug.png",
+    "prediction_plot_filename": "mcr_former_best_model_prediction_vs_actual_with_aug.png"
+}

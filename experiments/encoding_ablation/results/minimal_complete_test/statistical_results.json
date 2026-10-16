@@ -1,0 +1,84 @@
+{
+    "pairwise_comparisons": {
+        "(sin2\u03b8,cos2\u03b8)_vs_(sin\u03b8,cos\u03b8)": {
+            "r2": {
+                "t_statistic": 1.905825101762558,
+                "p_value": 0.10531578942863823,
+                "significant": 0,
+                "mean_difference": 0.1446558149298183
+            },
+            "rmse": {
+                "t_statistic": -2.632337757999799,
+                "p_value": 0.038937578662607164,
+                "significant": 1,
+                "mean_difference": -0.006778267457917528
+            }
+        },
+        "(sin2\u03b8,cos2\u03b8)_vs_(sin4\u03b8,cos4\u03b8)": {
+            "r2": {
+                "t_statistic": 5.69306757911517,
+                "p_value": 0.001268179505418412,
+                "significant": 1,
+                "mean_difference": 0.7323812929354185
+            },
+            "rmse": {
+                "t_statistic": -6.020024437871846,
+                "p_value": 0.0009478125375053281,
+                "significant": 1,
+                "mean_difference": -0.029153406457578242
+            }
+        },
+        "(sin2\u03b8,cos2\u03b8)_vs_(sin\u03b8,cos\u03b8,sin2\u03b8,cos2\u03b8)": {
+            "r2": {
+                "t_statistic": -0.8370091403365825,
+                "p_value": 0.43465199892126993,
+                "significant": 0,
+                "mean_difference": -0.020608087506237882
+            },
+            "rmse": {
+                "t_statistic": 0.8705002142856253,
+                "p_value": 0.4174895217084838,
+                "significant": 0,
+                "mean_difference": 0.0008929251335834405
+            }
+        }
+    },
+    "summary": {
+        "baseline_encoding": "(sin2\u03b8,cos2\u03b8)",
+        "total_models": 7
+    },
+    "average_performance": [
+        {
+            "Encoding": "(sin\u03b8,cos\u03b8)",
+            "Avg R\u00b2": 0.5840909997808079,
+            "Avg RMSE": 0.034166332433307675
+        },
+        {
+            "Encoding": "(sin2\u03b8,cos2\u03b8)",
+            "Avg R\u00b2": 0.7287468147106261,
+            "Avg RMSE": 0.027388064975390154
+        },
+        {
+            "Encoding": "(sin4\u03b8,cos4\u03b8)",
+            "Avg R\u00b2": -0.0036344782247925223,
+            "Avg RMSE": 0.05654147143296839
+        },
+        {
+            "Encoding": "(sin\u03b8,cos\u03b8,sin2\u03b8,cos2\u03b8)",
+            "Avg R\u00b2": 0.7493549022168641,
+            "Avg RMSE": 0.026495139841806712
+        }
+    ],
+    "best_performance": {
+        "best_avg_r2": {
+            "Encoding": "(sin\u03b8,cos\u03b8,sin2\u03b8,cos2\u03b8)",
+            "Avg R\u00b2": 0.7493549022168641,
+            "Avg RMSE": 0.026495139841806712
+        },
+        "best_avg_rmse": {
+            "Encoding": "(sin\u03b8,cos\u03b8,sin2\u03b8,cos2\u03b8)",
+            "Avg R\u00b2": 0.7493549022168641,
+            "Avg RMSE": 0.026495139841806712
+        }
+    }
+}

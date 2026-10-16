@@ -1,0 +1,30 @@
+{
+    "test_r2": 0.8220508098602295,
+    "test_mse": 0.000576560792978853,
+    "test_rmse": 0.02401168034475832,
+    "symmetry_stats": {
+        "mean_diff": 0.0011117051790157954,
+        "max_diff": 0.00599825382232666,
+        "min_diff": 6.556510925292969e-07,
+        "std_diff": 0.000934884301992624,
+        "median_diff": 0.0009074956178665161
+    },
+    "config": {
+        "batch_size": 32,
+        "d_model": 64,
+        "nhead": 2,
+        "num_layers": 3,
+        "dim_feedforward": 512,
+        "dropout": 0.09,
+        "learning_rate": 0.001,
+        "num_epochs": 50,
+        "test_size": 0.2,
+        "random_state": 42,
+        "max_seq_len": 20,
+        "num_layers_angle": 16,
+        "data_file": "composite_v13_dataset.csv",
+        "model_save_base": "se3_transformer_best_model"
+    },
+    "augmentation": true,
+    "model_type": "SE3-Transformer-Baseline"
+}

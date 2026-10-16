@@ -1,0 +1,16 @@
+{
+ "budget_per_thickness": 200,
+ "n_layers": 20,
+ "seeds": 3,
+ "total_sequences_per_size_approach": 4000,
+ "total_sequences_unified_model": 4000,
+ "per_size_r2_mean": 0.6584292145077006,
+ "per_size_r2_sd_across_layers": 0.13681258928052012,
+ "unified_r2_mean": 0.9508114665746689,
+ "unified_r2_min": 0.889132022857666,
+ "layers_where_per_size_wins": [
+  1
+ ],
+ "per_size_rmse_mean": 0.04800793302176533,
+ "unified_rmse_mean": 0.01738197068320365
+}
