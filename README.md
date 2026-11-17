@@ -2,14 +2,16 @@
 
 Code for the manuscript
 
-> **Minimal Complete Representations Enable Data-Efficient Learning of Periodic Physical Sequences in Composite Laminate Design**
-> Rui Li, Qiang Huang, James Lin, Jiayin Liu, Yin Fan\*, Minhua Wen\* — submitted to *Communications Engineering*.
+> **Symmetry-derived minimal representations for data-efficient surrogate modeling and inverse design of composite laminates**
+> Rui Li, Qiang Huang, James Lin, Jiayin Liu, Yin Fan\*, Minhua Wen\* — under review at *Structural and Multidisciplinary Optimization*.
 
 The data- and code-availability statements of the manuscript point to this repository
 (<https://github.com/lrwlx/MCR_Former>). It contains the model implementation, the
-data-generation scripts (Classical Lamination Theory), the training and evaluation scripts,
-the ablation and transfer-learning studies, the inverse-design search and the figure scripts
-behind every table and figure of the paper and its Supplementary Information.
+data-generation scripts (classical lamination theory), the training and evaluation scripts,
+the ablation and transfer-learning studies, the inverse-design search and the scripts
+behind the figures. The three-dimensional finite-element verification, the
+lamination-parameter baseline and the direct-search campaign are available from the
+corresponding author.
 
 Every script uses paths relative to its own folder, so the repository can be cloned anywhere. Run each script from the folder that contains it.
 
@@ -23,10 +25,13 @@ Every script uses paths relative to its own folder, so the repository can be clo
 | Table S1, Fig. 3 — encoding ablation (7 architectures × 6 encodings) | `experiments/encoding_ablation/`, plotted by `figures/Fig3/` |
 | Fig. 4 — one model across 1–20 plies | `experiments/cross_scale/`, plotted by `figures/Fig4/` |
 | Table S3, Table S4 — per-thickness baseline | `experiments/per_size_baseline/` |
-| Table 3, Fig. 5a — zero-/few-shot transfer to 21–30 plies | `experiments/few_shot/` (and `experiments/cross_scale/few_shot_v13_1.py`), plotted by `figures/Fig5/` |
-| Table 4, Fig. 5b — cross-property transfer (ν13 → ν12) | `experiments/cross_property/`, plotted by `figures/Fig5/` |
-| Table 5, Section 2.8 — inverse design | `experiments/inverse_design/` |
-| Table S2, Section S4 — spherical-manifold benchmark | `experiments/sphere_benchmark/` |
+| Table 4, Fig. 5a — zero-/few-shot transfer to 21–30 plies | `experiments/few_shot/` (and `experiments/cross_scale/few_shot_v13_1.py`), plotted by `figures/Fig5/` |
+| Table 5, Fig. 5b — cross-property transfer (ν13 → ν12) | `experiments/cross_property/`, plotted by `figures/Fig5/` |
+| Table 6, Section 5.6 — inverse design | `experiments/inverse_design/` |
+| Table 7, Fig. 7 — equal-budget direct search | available from the corresponding author |
+| Fig. 6, Table S5 — 3D finite-element verification | available from the corresponding author |
+| Table 3, Table S6 — lamination-parameter baseline | available from the corresponding author |
+| Table S2, Section S3 — spherical-manifold benchmark | `experiments/sphere_benchmark/` |
 
 ## Environment
 
